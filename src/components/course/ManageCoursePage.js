@@ -30,7 +30,6 @@ class ManageCoursePage extends React.Component {
     }
 
     updateCourseState(event) {
-      debugger;
       const field = event.target.name;
       //let course = this.state.course;
       let course = Object.assign({}, this.state.course);
